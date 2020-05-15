@@ -1,0 +1,144 @@
+html body {
+  background-color: #b7efcd;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#body {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.body p {
+  font-size: 1.5em;
+  letter-spacing: 0.3em;
+  color: #120136;
+  transform: to-upper-case;
+}
+.body .content:nth-child(2):hover {
+  background: #a8d3da;
+}
+.body img {
+  border-radius: 90px;
+}
+.body img:hover {
+  border-radius: 70px;
+}
+.body ul {
+  margin-top: 150px;
+  border-top: 3px solid black;
+}
+.body ul li {
+  align-items: center;
+  color: #1eb2a6;
+  font-size: 1.5em;
+}
+.body ul:hover {
+  background: #a8d3da;
+  border-top: 0px;
+  border-bottom: 3px solid black;
+}
+
+.hobbies, .about, .routine, .home {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.home {
+  color: #58b4ae;
+}
+
+.home::after {
+  content: "My name is Caroline";
+}
+
+.routine {
+  color: #1eb2a6;
+}
+
+.about {
+  color: #552244;
+}
+
+.hobbies {
+  color: #00a1ab;
+}
+
+.content {
+  border: 1px solid #4cd3c2;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  margin-top: 10vh;
+}
+
+#footer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.hobbie-element {
+  height: 50vh;
+  background-color: #abf0e9;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-left: 10px;
+}
+
+.row {
+  margin-top: 30px;
+  width: 90vw;
+}
+
+@media (max-width: 600px) {
+  .home::after {
+    content: "";
+  }
+
+  .hobbie-element {
+    height: 60vh;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid black;
+  }
+
+  .hobbie-element:hover {
+    border-top: 3px solid black;
+    border-bottom: 0px;
+  }
+
+  .body ul {
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
