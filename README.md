@@ -13,9 +13,3 @@ images folder: there are the two images i used for the web site. The "descarga.p
 styles folder: there are the files for styling the web site. The style.css was generated with the style.scss.
 
 views folder: there are the tree views for the page (index it's the main view)
-
-link to the web page.
-https://javier-a-agustin.github.io/CS50-s-Web-Programming-with-Python-and-JavaScript-project0/index.html
-
-This page is the first of a serie of pages. corresponding to the course "Web Programming with Python and JavaScript" of harvard, wich it's free.
-link to the course: https://cs50.harvard.edu/web/2018/

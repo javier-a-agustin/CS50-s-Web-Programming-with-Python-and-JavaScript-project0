@@ -125,7 +125,7 @@ table {
   }
 
   .hobbie-element {
-    height: 60vh;
+    height: 450px;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 3px solid black;
@@ -138,6 +138,9 @@ table {
 
   .body ul {
     margin-top: 50px;
+  }
+  .body .content:nth-child(2) {
+    height: 450px;
   }
 }
 
