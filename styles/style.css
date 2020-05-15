@@ -130,6 +130,12 @@ table {
     border-right: 0px;
     border-bottom: 3px solid black;
   }
+  .hobbie-element p {
+    font-size: 1.3em;
+    letter-spacing: 0.3em;
+    color: #120136;
+    transform: to-upper-case;
+  }
 
   .hobbie-element:hover {
     border-top: 3px solid black;
